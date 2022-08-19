@@ -148,14 +148,12 @@ footer {
     }
 
 
-    .footer-info{
-        all: unset;
-        font-size: 0.5rem;
+    .footer-info ul{
+        font-size: 0.8rem;
 
     }
-    .footer-newsletter{
-        font-size: unset;
-        font-size: 0.5rem;
+    .footer-newsletter p{
+        font-size: 0.8rem;
 
     }
 
