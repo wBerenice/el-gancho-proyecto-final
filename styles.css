@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@600;800&family=Poppins:wght@500&display=swap');
+
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    /* position: relative; */
+    /* border: 1px blue solid; */
+    /* max-width: 90%; */
+    margin: auto;
+    
+
+  }
+
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.logo {
+    font-family: 'Martel', serif;
+    background-color: white;
+    
+}
+
+.contenedor-top-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightcoral;
+    border: 5px yellow solid;
+    /* position: absolute; */
+    left: 0;
+}
+
+
+.cuenta-y-carrito {
+    display: flex;
+    background-color: yellowgreen;
+}
+
+#user-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;
+    border: 1px red solid;
+}
+
+#shop-bag-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-right: 3rem; */
+    border: 1px red solid;
+}
+
+.cuenta-y-carrito div img{
+    /* display: flex; */
+    width:3rem;
+}
+p {
+    background-color: lightskyblue;
+}
+
+.cuenta-y-carrito p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+}
+
+.contenedor-navbar {
+    border: 3px green solid;
+}
+
+.contenedor-navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    /* position: relative; */
+}
+
+
+/* todo                 FOOTER */
+
+
+
