@@ -25,24 +25,28 @@ img {
   }
 
 .logo {
-    font-family: 'Martel', serif;
     background-color: white;
+
+    font-family: 'Martel', serif;
+    font-size: 2.5rem;
     
 }
 
 .contenedor-top-bar{
+    background-color: lightcoral;
+
     display: flex;
     justify-content: space-between;
-    background-color: lightcoral;
     border: 5px yellow solid;
-    /* position: absolute; */
-    left: 0;
+    align-items: center;
+
 }
 
 
 .cuenta-y-carrito {
-    display: flex;
     background-color: yellowgreen;
+
+    display: flex;
 }
 
 #user-section {
@@ -65,9 +69,7 @@ img {
     /* display: flex; */
     width:3rem;
 }
-p {
-    background-color: lightskyblue;
-}
+
 
 .cuenta-y-carrito p{
     font-family: 'Poppins', sans-serif;
@@ -89,5 +91,48 @@ p {
 
 /* todo                 FOOTER */
 
+footer {
+    background-color: lightgrey;
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer-info ul{
+    list-style: none;
+    border: 1px red solid;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.footer-info ul li{
+    margin: 1rem;
+}
+
+.footer-newsletter  {
+    border: 1px green solid;
+    text-align: right;
+}
+
+.footer-newsletter  p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.titulo-newsletter {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+
+
+/* ?  CSS   ROPA MUJERES */
+
+
+
+
+
+/* ?  CSS   ROPA HOMBRES */
+/* ?  CSS   ROPA NIÑOS */
 
