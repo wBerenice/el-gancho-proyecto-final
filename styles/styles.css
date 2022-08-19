@@ -136,3 +136,35 @@ footer {
 /* ?  CSS   ROPA HOMBRES */
 /* ?  CSS   ROPA NIÑOS */
 
+
+
+/* todo             MEDIA QUERIES */
+@media only screen and (max-width: 500px) {
+    
+    .logo {
+        all:unset;
+        font-family: 'Martel', serif;
+        font-size: 1.5rem;
+    }
+
+
+    .footer-info{
+        font-size: 0.5rem;
+
+
+    }
+    .footer-newsletter{
+        font-size: 0.5rem;
+
+    }
+
+
+
+
+
+
+
+
+
+
+  }
