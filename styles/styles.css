@@ -14,7 +14,9 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     /* border: 1px blue solid; */
     /* max-width: 90%; */
     margin: auto;
-    
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1rem;
 
   }
 
@@ -25,28 +27,35 @@ img {
   }
 
 .logo {
-    background-color: white;
+    /* background-color: white; */
 
     font-family: 'Martel', serif;
     font-size: 2.5rem;
-    
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
 }
 
 .contenedor-top-bar{
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
 
     display: flex;
     justify-content: space-between;
-    border: 5px yellow solid;
+    /* border: 5px yellow solid; */
     align-items: center;
+
 
 }
 
 
 .cuenta-y-carrito {
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 
     display: flex;
+
+    padding-right: 1rem;
 }
 
 #user-section {
@@ -54,19 +63,30 @@ img {
     flex-direction: column;
     align-items: center;
     margin-right: 2rem;
-    border: 1px red solid;
+    /* border: 1px red solid; */
+    vertical-align: middle;
 }
+
+#user-section p{
+    white-space: nowrap;
+}
+
+
 
 #shop-bag-section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-right: 3rem; */
-    border: 1px red solid;
+    /* border: 1px red solid; */
+}
+
+
+#shop-bag-section p{
+    white-space: nowrap;
+
 }
 
 .cuenta-y-carrito div img{
-    /* display: flex; */
     width:3rem;
 }
 
@@ -77,7 +97,7 @@ img {
 }
 
 .contenedor-navbar {
-    border: 3px green solid;
+    /* border: 3px green solid; */
 }
 
 .contenedor-navbar ul {
@@ -86,6 +106,30 @@ img {
     list-style: none;
     font-family: 'Poppins', sans-serif;
     /* position: relative; */
+}
+
+.contenedor-navbar ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+.cuenta-y-carrito div p a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.cuenta-y-carrito div p a:hover {
+    text-decoration: underline;
+    color: blue;
 }
 
 
