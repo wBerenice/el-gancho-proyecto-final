@@ -149,11 +149,13 @@ footer {
 
 
     .footer-info{
+        font-size: unset;
         font-size: 0.5rem;
 
 
     }
     .footer-newsletter{
+        font-size: unset;
         font-size: 0.5rem;
 
     }
