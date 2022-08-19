@@ -149,9 +149,8 @@ footer {
 
 
     .footer-info{
-        font-size: unset;
+        all: unset;
         font-size: 0.5rem;
-
 
     }
     .footer-newsletter{
