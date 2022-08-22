@@ -86,9 +86,20 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* position: relative; */
     /* border: 1px red solid; */
 }
 
+
+#shop-bag-section a img {
+    /* position: sticky; */
+
+}
+
+#shop-bag-section img {
+    /* position: sticky; */
+
+}
 
 #shop-bag-section p {
     white-space: nowrap;
@@ -225,17 +236,14 @@ footer {
 .card_image img {}
 
 
-.contenedor-carta-texto {
-    /* max-width: 14rem; */
+/* .contenedor-carta-texto {
 }
 
 .contenedor-carta-texto h3 {
-    /* padding: 1rem; */
 }
 
 .contenedor-carta-texto p {
-    /* padding: 1rem; */
-}
+} */
 
 
 .contenedor-precios-btn {
@@ -258,6 +266,12 @@ footer {
     width: 7rem;
 
 }
+
+/* .bolsita {
+    position: sticky;
+    top: 10rem;
+} */
+
 
 
 #btn-shopping-bag {
@@ -311,6 +325,22 @@ footer {
 } */
 
 
+.one {
+    background-color: yellow;
+    /* position: relative; */
+}
+
+.two {
+    background-color: lightpink;
+    position: sticky;
+    top: 10rem;
+
+}
+
+.three {
+    background-color: aquamarine;
+}
+
 
 
 
@@ -345,14 +375,5 @@ footer {
         font-size: 0.8rem;
 
     }
-
-
-
-
-
-
-
-
-
 
 }
