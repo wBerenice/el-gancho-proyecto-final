@@ -213,7 +213,7 @@ footer {
     margin: 1rem;
     border-radius: 1rem;
     overflow: hidden;
-    max-width: 18.75rem;
+    max-width: 18rem;
 
 
     display: flex;
@@ -362,22 +362,6 @@ footer {
 } */
 
 
-.one {
-    background-color: yellow;
-    /* position: relative; */
-}
-
-.two {
-    background-color: lightpink;
-    position: sticky;
-    top: 10rem;
-
-}
-
-.three {
-    background-color: aquamarine;
-}
-
 
 #checkout-table {
     display: flex;
@@ -416,7 +400,7 @@ table {
     /* width: 6rem;/ */
     border-radius: 10px;
     position: sticky;
-    top: 0;
+    top: 10%;
     /* position: fixed; */
 
   }
@@ -438,7 +422,7 @@ table {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     position: sticky;
-    top: 10%;
+    top: 20%;
 }
 
 .checkout-text:hover {
