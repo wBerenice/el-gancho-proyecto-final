@@ -1,3 +1,5 @@
+
+//Array con los productos/camisas SECCION MUJERES
 const products = [
 
     {name: "Dalila", desc: "Lorem ipsum dolor sit amet", price: 299, image: './img/01-mujer-morado-claro.png'},
@@ -14,7 +16,7 @@ const products = [
 ]
     
 
-  
+//Funcion para crear las tarjetas
   function createProductCards(data){
     data.forEach(e =>{
   
@@ -34,13 +36,10 @@ const products = [
       pTags[1].innerHTML = '$' + e.price 
 
       const botonCarta = productTemplate.content.querySelectorAll('button')
-    //   botonCarta =document.createElement("img")
       botonCarta[0].innerHTML = "Agregar"
-
-    //   const imgBolsa = productTemplate.content.getElementById('imgBolsa')
       
       
-  
+  //Creacion de "molde" tomando como referencia elementos del HTML
       const productsContainer = document.getElementById('products') 
       let clone  = document.importNode(productTemplate.content, true)
       productsContainer.appendChild(clone)
@@ -49,7 +48,6 @@ const products = [
   
   createProductCards(products)
   
-//   const cards = document.getElementsByClassName('card')
   const cards = document.getElementsByClassName('button-shopping')
   
   console.log(cards)
@@ -67,7 +65,7 @@ const products = [
   })
   }
   
-  
+  //Declaracion de Evento = ¿qué hacer cuando el usuario hace click en el botón checkout?
   document.getElementById('checkout').addEventListener('click', function(){
     console.log(cart, 'real cart?')
   alert(outputCart(cart))
@@ -77,6 +75,8 @@ const products = [
     window.location = './checkout.html'
   })
   
+
+//Resultado del Evento = imprimir en un alert el total y los productos seleccionadas
   function outputCart(array){
     console.log(array)
     let output = ''
