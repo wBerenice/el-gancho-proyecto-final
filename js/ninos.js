@@ -1,19 +1,14 @@
 const products = [
 
-    {name: "Jacob", desc: "Lorem ipsum dolor sit amet", price: 190, image: './img/01-hombre-negro.png'},
-    {name: "Alexander", desc: "Lorem ipsum dolor sit amet", price: 250, image: './img/02-hombre-rojo.png'},
-    {name: "Julian", desc: "Lorem ipsum dolor sit amet", price: 99, image: './img/03-hombre-azul.png'},
-    {name: "Leonardo", desc: "Lorem ipsum dolor sit amet", price: 200, image: './img/04-hombre-azul-claro.png'},
-    {name: "Charlie", desc: "Lorem ipsum dolor sit amet", price: 150, image: './img/05-hombre-tierroso.png'},
-    {name: "Willliam", desc: "Lorem ipsum dolor sit amet", price: 120, image: './img/06-hombre-rosa.png'},
-    {name: "Noah", desc: "Lorem ipsum dolor sit amet", price: 189, image: './img/07-hombre-naranja.png'},
-    {name: "Jack", desc: "Lorem ipsum dolor sit amet", price: 130, image: './img/08-hombre-azul-cielo.png'},
-    {name: "Paul", desc: "Lorem ipsum dolor sit amet", price: 140, image: './img/09-hombre-verde-pasto.png'},
-    {name: "Daniel", desc: "Lorem ipsum dolor sit amet", price: 160, image: './img/10-hombre-naranja-farol.png'},
+    {name: "Iker", desc: "Lorem ipsum dolor sit amet", price: 149, image: './img/01-nino-rojo-azul.png'},
+    {name: "Paula", desc: "Lorem ipsum dolor sit amet", price: 220, image: './img/02-nina-crema-jeans.png'},
+    {name: "Hugo", desc: "Lorem ipsum dolor sit amet", price: 399, image: './img/03-nino-cafe-tierra.png'},
+    {name: "Carla", desc: "Lorem ipsum dolor sit amet", price: 179, image: './img/04-nina-rosa-completo.png'},
+    {name: "Diego", desc: "Lorem ipsum dolor sit amet", price: 249, image: './img/05-nino-amarillo-gris.png'},
+    {name: "Abigail", desc: "Lorem ipsum dolor sit amet", price: 129, image: './img/06-nina-rosa-leggins.png'},
    
 ]
     
-
   
   function createProductCards(data){
     data.forEach(e =>{
