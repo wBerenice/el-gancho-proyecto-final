@@ -492,5 +492,23 @@ table {
         font-size: 0.8rem;
 
     }
+    .contenedor-checkout-completo{
+        max-width: 4rem;
+    }
+    .checkout-text{
+        font-size: 0.7rem;
+
+    }
+
+    #cartContainer img {
+        width: 30px;
+        height: 30px;
+    }
 
 }
+
+    #cartContainer p {
+        font-size: 1rem;
+    }
+
+    
