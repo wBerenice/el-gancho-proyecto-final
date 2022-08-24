@@ -47,124 +47,63 @@
                 <div class="card_image">
                     <img src="img/01-hombre-negro.png">
                 </div>
-                <h3>Croissant de mantequilla</h3>
-                <p>Recién horneado con masa de hojaldre; contiene levadura, mantequilla y una pista de sal.</p>
             </div>
-            <a class="btn btn_color" href="productos.html#panaderia">Ir a panadería</a>
-        </div>
-
-        <div class="card">
-            <div class="card_main">
-                <div class="card_image">
-                    <img src="img/02-mujer-blanco.png">
-                </div>
-                <h3>Pastel de frambuesa</h3>
-                <p>Las frescas frambuesas hacen de este pastel único en su clase. <br> «Venta exclusiva en sucursal»</p>
+            <div class="contenedor-carta-texto">
+                <h3>Daniel</h3>
+                <p>Lorem ipsum dolor sit amet</p>
             </div>
-            <a class="btn btn_color" href="productos.html#pasteleria">Ir a pastelería</a>
-        </div>
 
-        <div class="card">
-            <div class="card_main">
-                <div class="card_image">
-                    <img src="img/03-mujer-azul-marino.png">
-                </div>
-                <h3>Cupcakes de chocolate</h3>
-                <p>Excepcional sabor a chocolate negro, con una decoración colorida y original.</p>
+            <div class="contenedor-precios-btn">
+                <p>$299</p>
+                <button id="btn-shopping-bag" class="button-shopping"><img src="img/shopping-bag.png">Agregar</button>
             </div>
-            <a class="btn btn_color" href="productos.html#bocadillos">Ir a bocadillos</a>
         </div>
+    </div>
 
-        <div class="card">
-            <div class="card_main">
-                <div class="card_image">
-                    <img src="img/04-mujer-azul-cielo.png">
-                </div>
-                <h3>Pan integral</h3>
-                <p>Hecho con cereales y granos 100% órganicos. «Opciones sin azúcar ni conservadores a su disposición»
-                </p>
+
+
+    <div class="artists">
+        <div>
+            <h1 class="style-title ">Products</h1>
+           
+        </div>
+    
+        <div id='cartContainer'>
+            <img src="images/cart-icon-removebg-preview.png"/>
+            <p id='cart'>0</p>
+        </div>
+        
+        <button id='checkout'class='checkout-text '>Checkout</button>
+        
+    </div>
+    
+    
+    <div class="bg-products">
+    
+          <div id='products' class='d-flex align-items-center justify-content-center flex-wrap'></div>
+        
+          <template id='cardContainer'>
+            <div class="card cardContainer" style="width: 18rem; margin: 10px">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">...</h5>
+                <p class="card-text">...</p>
+                <p class="card-text">...</p>
+              </div>
             </div>
-            <a class="btn btn_color" href="productos.html#saludable">Ir a sección saludable</a>
-        </div>
-
-        <div class="card">
-            <div class="card_main">
-                <div class="card_image">
-                    <img src="img/05-mujer-azul-puntos.png">
-                </div>
-                <h3>Pan integral</h3>
-                <p>Hecho con cereales y granos 100% órganicos. «Opciones sin azúcar ni conservadores a su disposición»
-                </p>
-            </div>
-            <a class="btn btn_color" href="productos.html#saludable">Ir a sección saludable</a>
-        </div>
-
-        <div class="card">
-            <div class="card_main">
-                <div class="card_image">
-                    <img src="img/06-mujer-coral.png">
-                </div>
-                <h3>Pan integral</h3>
-                <p>Hecho con cereales y granos 100% órganicos. «Opciones sin azúcar ni conservadores a su disposición»
-                </p>
-            </div>
-            <a class="btn btn_color" href="productos.html#saludable">Ir a sección saludable</a>
-        </div>
-
-        <div class="card">
-            <div class="card_main">
-                <div class="card_image">
-                    <img src="img/07-mujer-azul-rey.png">
-                </div>
-                <h3>Pan integral</h3>
-                <p>Hecho con cereales y granos 100% órganicos. «Opciones sin azúcar ni conservadores a su disposición»
-                </p>
-            </div>
-            <a class="btn btn_color" href="productos.html#saludable">Ir a sección saludable</a>
-        </div>
-
-        <div class="card">
-            <div class="card_main">
-                <div class="card_image">
-                    <img src="img/08-mujer-azul-tercio.png">
-                </div>
-                <h3>Pan integral</h3>
-                <p>Hecho con cereales y granos 100% órganicos. «Opciones sin azúcar ni conservadores a su disposición»
-                </p>
-            </div>
-            <a class="btn btn_color" href="productos.html#saludable">Ir a sección saludable</a>
-        </div>
-
-        <div class="card">
-            <div class="card_main">
-                <div class="card_image">
-                    <img src="img/09-mujer-verde.png">
-                </div>
-                <h3>Pan integral</h3>
-                <p>Hecho con cereales y granos 100% órganicos. «Opciones sin azúcar ni conservadores a su disposición»
-                </p>
-            </div>
-            <a class="btn btn_color" href="productos.html#saludable">Ir a sección saludable</a>
-        </div>
-
-        <div class="card">
-            <div class="card_main">
-                <div class="card_image">
-                    <img src="img/10-mujer-amarillo.png">
-                </div>
-                <h3>Pan integral</h3>
-                <p>Hecho con cereales y granos 100% órganicos. «Opciones sin azúcar ni conservadores a su disposición»
-                </p>
-            </div>
-            <a class="btn btn_color" href="productos.html#saludable">Ir a sección saludable</a>
-        </div>
-
-
+          </template>
+        
+    
     </div>
 
 
 
 
+
+
+
+
+    <script src="js/hombres.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
