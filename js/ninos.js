@@ -1,14 +1,3 @@
-// const products = [
-//     {name: 'Doo-Wops & Hooligans', desc: 'Bruno Mars',price: 39, image: './images/vinyl-bruno_mars.jpg'},
-//       {name: 'The Best of Whitney Houston', desc: 'Whitney Houston',price: 37, image: './images/vinyl-whitney_houston.jpg'},
-//       {name: 'Harry’s House', desc: 'Harry Styles',price: 42, image: './images/vinyl-harrys_house.jpg'},
-//       {name: 'Greatest Hits (1981)', desc: 'Queen',price: 35, image: './images/vinyl-queen.jpg'},
-//       {name: 'Born To Die', desc: 'Lana del Rey',price: 40.5, image: './images/vinyl-lana_del_rey.jpg'},
-//       {name: 'Sun is shining', desc: 'Bob Marley',price: 38, image: './images/vinyl-bob_marley.jpg'},
-//       {name: '...And Justice for All', desc: 'Metallica',price: 36, image: './images/vinyl-metallica.jpg'},
-//       {name: '2020', desc: 'Bon Jovi',price: 34, image: './images/vinyl-bon_jovi.jpg'},
-//   ]
-
 const products = [
 
     {name: "Jacob", desc: "Lorem ipsum dolor sit amet", price: 190, image: './img/01-hombre-negro.png'},
@@ -31,8 +20,9 @@ const products = [
   
       const productTemplate = document.getElementById('cardContainer')
   
-      const header = productTemplate.content.querySelectorAll('h5')
+      const header = productTemplate.content.querySelectorAll('h3')
       header[0].innerHTML = e.name
+    
   
       const image  = productTemplate.content.querySelectorAll('img')
       image[0].src = e.image
@@ -40,6 +30,16 @@ const products = [
       const pTags = productTemplate.content.querySelectorAll('p')
       pTags[0].innerHTML = e.desc
       pTags[1].innerHTML = '$' + e.price 
+      pTags[1].innerHTML = '$' + e.price 
+      pTags[1].innerHTML = '$' + e.price 
+
+      const botonCarta = productTemplate.content.querySelectorAll('button')
+    //   botonCarta =document.createElement("img")
+      botonCarta[0].innerHTML = "Agregar"
+
+    //   const imgBolsa = productTemplate.content.getElementById('imgBolsa')
+      
+      
   
       const productsContainer = document.getElementById('products') 
       let clone  = document.importNode(productTemplate.content, true)
@@ -49,7 +49,8 @@ const products = [
   
   createProductCards(products)
   
-  const cards = document.getElementsByClassName('card')
+//   const cards = document.getElementsByClassName('card')
+  const cards = document.getElementsByClassName('button-shopping')
   
   console.log(cards)
   let numberContainer = document.getElementById('cart')
@@ -81,9 +82,10 @@ const products = [
     let output = ''
     let total = 0
     for(let i = 0; i < array.length; i ++){
-      output = output.concat(' ', `${array[i].name} -${array[i].price} `)
+    //   output = output.concat(`${array[i].name} ${array[i].price}\n`)
+      output = output.concat(`$${array[i].price} ${array[i].name}\n`)
       total = total + array[i].price
     }
-  return `Total: ${total} Output: ${output}`
+  return `Total: $${total} \n\nProductos:    \n${output}`
     
   }
