@@ -1,3 +1,19 @@
+let cart = []
+
+
+
+let storageCart = localStorage.getItem("cart");
+
+if(storageCart){
+  cart = JSON.parse(storageCart);
+}
+
+console.log(cart)
+
+
+
+
+
 
 //Array con los productos/camisas SECCION MUJERES
 const products = [
@@ -52,18 +68,20 @@ const products = [
   
   console.log(cards)
   let numberContainer = document.getElementById('cart')
-  let cart = []
-  let number  = 0 
+  numberContainer.innerHTML = cart.length
+
+
   
   for(let i = 0; i < cards.length; i ++){
     
   cards[i].addEventListener('click', function(event){
-    number ++
     cart.push(products[i])
-    numberContainer.innerHTML = number
-    console.log(cart)
+    localStorage.setItem("cart",JSON.stringify(cart))
+    numberContainer.innerHTML = cart.length
+
   })
   }
+
   
   //Declaracion de Evento = ¿qué hacer cuando el usuario hace click en el botón checkout?
   document.getElementById('checkout').addEventListener('click', function(){
@@ -89,3 +107,6 @@ const products = [
   return `Total: $${total} \n\nProductos:    \n${output}`
     
   }
+
+
+
